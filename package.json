@@ -25,6 +25,7 @@
     "bootstrap-icons": "^1.1.0",
     "firebase": "^8.1.2",
     "rxjs": "~6.6.0",
+    "tachyon": "0.0.11",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },

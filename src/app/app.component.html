@@ -5,17 +5,13 @@
 
 <div class="topnav">
   <nav class="navbar navbar-expand-lg navbar-light bg-light f  p-3 mb-5 shadow-sm rounded">
-    <a class="navbar-brand" href="#">לוגו</a>
+    <a class="navbar-brand" href="#"><img src="assets/images/android-icon-72x72.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav d">
-
-        <a [routerLink]="['/homePage']"   class="a">
-          בית
-        </a>
         <a [routerLink]="['/homePage']" fragment="about" class="a">
           אודות
         </a>
@@ -23,7 +19,10 @@
           שאלות_ותשובות
         </a>
         <a [routerLink]="['/homePage']" class="a">
-          צפיה_במיזמים
+          פרוייקטים
+        </a>
+        <a [routerLink]="['/homePage']"   class="a">
+          בית
         </a>
         <button class="button button1" [routerLink]="['/login']" >התחברות</button>
       </ul>
